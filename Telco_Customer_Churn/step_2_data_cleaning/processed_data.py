@@ -3,9 +3,9 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder
 
-def processed_data():
+def new_churn_data(data_path):
     # Read dataset
-    df = pd.read_csv("telco-cust-churn-dataset-for-cleaning.csv")
+    df = pd.read_csv(data_path)
 
     # Empty dummy columns list
     col_list = list(df.columns)
