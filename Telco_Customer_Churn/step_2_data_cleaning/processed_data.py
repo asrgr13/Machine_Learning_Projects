@@ -28,5 +28,3 @@ def processed_data():
     df_proc = df_proc.drop('Unnamed: 21', axis=1)
 
     return df_proc
-
-
